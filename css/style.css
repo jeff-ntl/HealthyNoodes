@@ -242,16 +242,26 @@ div.container
 .parallaxThree{
   height: 100vh;
   width: 100%;
-  background-image:url(../images/dogBackground.jpg);
+  background-image:url(../images/faqBackground.jpg);
   background-size:cover;
   display:table;
   background-attachment: fixed;
 }
 
-.parallaxThree .container{
+.parallaxThree .row{
   margin-top:15em;
 }
 
+.parallaxThree .container{
+  background: rgba(255,255,255,.5);
+  color:#2d2f33;
+  padding:0;
+}
+
+#accordion .ui-accordion-header{
+  background: rgba(255,255,255,.8);
+
+}
 /**--**/
 .para
 {
