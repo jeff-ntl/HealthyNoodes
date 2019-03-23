@@ -252,15 +252,27 @@ div.container
   margin-top:15em;
 }
 
+.parallaxThree h1{
+  color:red;
+  font-weight: bold;
+}
+
 .parallaxThree .container{
-  background: rgba(255,255,255,.5);
+  background: rgba(255,255,255,.3);
   color:#2d2f33;
   padding:0;
 }
-
+#accordion{
+  margin-bottom:15em;
+}
 #accordion .ui-accordion-header{
-  background: rgba(255,255,255,.8);
-
+  background: rgba(255,255,255,.5);
+}
+#accordion h3{
+  padding:.5em;
+}
+#accordion p{
+  padding:.5em;
 }
 /**--**/
 .para
