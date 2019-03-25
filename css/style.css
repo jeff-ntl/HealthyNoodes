@@ -1,6 +1,12 @@
 /** INDEX **/
 /*sticky navbar*/
 /* The sticky class is added to the navbar with JS when it reaches its scroll position */
+::selection {
+  background: #ffb7b7; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: #ffb7b7; /* Gecko Browsers */
+}
 .sticky {
   position: fixed;
   top: 0;
