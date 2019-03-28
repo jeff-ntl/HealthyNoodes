@@ -244,6 +244,19 @@ div.container
 .fixedHeight{
   height:500px;
 }
+/**About**/
+.parallaxEight{
+  height: 70vh;
+  width: 100%;
+  background-image:url(../images/aboutBackground.jpg);
+  background-size:cover;
+  display:table;
+  background-attachment: fixed;
+}
+
+.borderRight{
+  border-right:solid 1px white;
+}
 /**--**/
 .para
 {
