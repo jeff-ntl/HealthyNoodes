@@ -83,30 +83,7 @@ p
 {
     font-size: 16px;
 }
-.margin
-{
-    margin-bottom: 45px;
-}
-.bg-1
-{
-      background-color: #1abc9c; /* Green */
-      color: #ffffff;
-}
-.bg-2
-{
-      background-color: #474e5d; /* Dark Blue */
-      color: #ffffff;
-}
-.bg-3
-{
-      background-color: #ffffff; /* White */
-      color: #555555;
-}
-.bg-4
-{
-      background-color: #2f2f2f; /* Black Gray */
-      color: #fff;
-}
+
 .container-fluid
 {
       padding-top: 70px;
@@ -175,22 +152,7 @@ li a:hover
 {
     background-color: red;
 }
-.panel
-{
-    padding: 0 18px;
-    display: none;
-    background-color: white;
-    overflow: hidden;
-}
 
-/**SPORTS**/
-.sports
-{
-    font: 20px Montserrat, sans-serif !important;
-    background-color: white !important;
-    list-style-type: square;
-    list-style-position: inside;
-}
 
 /**IMAGES**/
 .images
@@ -234,16 +196,16 @@ div.container
 .parallaxFive{
   height: 100vh;
   width: 100%;
-  background-image:url(../images/greyBackground.jpg);
   background-size:cover;
   display:table;
   background-attachment: fixed;
 }
 
 #contactBackground{
-  background-color: #F5F5F5;
   padding:4em;
 }
+
+
 
 /**FaQs**/
 .parallaxThree{
@@ -275,6 +237,19 @@ div.container
 }
 #accordion p{
   padding:.5em;
+}
+/**Products**/
+.parallaxSix{
+  height: 70vh;
+  width: 100%;
+  background-image:url(../images/productsBackground.jpg);
+  background-size:cover;
+  display:table;
+  background-attachment: fixed;
+}
+
+.fixedHeight{
+  height:500px;
 }
 /**--**/
 .para
