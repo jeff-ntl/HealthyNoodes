@@ -64,7 +64,7 @@ body, html {
 h1{
   font-family:arial black;
   font-size: 50px;
-  color:white;
+  color:red;
   margin:0px;
   text-align: center;
   display:table-cell;
@@ -243,6 +243,33 @@ div.container
   background: rgba(0,0,0,.5);
   margin-top: 2em;
 }
+/**Contacts**/
+.parallaxFour{
+  height: 70vh;
+  width: 100%;
+  background-image:url(../images/contactBackground.jpg);
+  background-size:cover;
+  display:table;
+  background-attachment: fixed;
+}
+.caption{
+  font-weight: 900;
+  color: white;
+  text-transform: uppercase;
+}
+.parallaxFive{
+  height: 100vh;
+  width: 100%;
+  background-image:url(../images/greyBackground.jpg);
+  background-size:cover;
+  display:table;
+  background-attachment: fixed;
+}
+
+#contactBackground{
+  background-color: #F5F5F5;
+  padding:4em;
+}
 
 /**FaQs**/
 .parallaxThree{
@@ -256,11 +283,6 @@ div.container
 
 .parallaxThree .row{
   margin-top:15em;
-}
-
-.parallaxThree h1{
-  color:red;
-  font-weight: bold;
 }
 
 .parallaxThree .container{
@@ -302,11 +324,6 @@ th, td
     padding: 15px;
 }
 
-/**ART**/
-.mySlides
-{
-    display:none;
-}
 
 /**FOOTER TEMPLATES**/
 .footer-distributed{
@@ -383,5 +400,3 @@ th, td
 		line-height: 1.8;
 	}
 }
-
-
